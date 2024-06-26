@@ -1,0 +1,18 @@
+@model CEPViewModel
+@{
+    ViewData["Title"] = "Cadastra CEPs";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Cadastre seu CEP</h1>
+    <form asp-action ="Cadastra">
+        <div  class ="form-group">
+            <label asp-for = "CEP" class = "control-label"></label>
+            <input asp-for = "CEP" class = "form-control"/>
+            <spam asp-validation-for = "CEP" class="text-danger"></spam>
+        </div>
+        <div  class ="form-group">
+            <input type = "submit" class = "form-control"/>
+        </div>
+    </form>
+</div>

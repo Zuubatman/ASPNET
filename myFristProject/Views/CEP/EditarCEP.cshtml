@@ -1,0 +1,18 @@
+@model CEPViewModel
+@{
+    ViewData["Title"] = "Editar CEP";
+    var antigoCep = (string)ViewData["antigoCep"];
+}
+
+<div class="text-center">
+    <p>CEP ANTIGO: @antigoCep</p>
+    <form asp-action ="EditarCEP">
+        <h1 class="display-4">Digite o novo CEP:</h1>
+        <label asp-for = "CEP" class = "control-label"></label>
+        <input asp-for = "CEP" class = "form-control"/>
+        <input type="hidden" name="antigoCep" value="@antigoCep" />
+         <div  class ="form-group">
+            <input type = "submit" class = "form-control"/>
+        </div>
+    </form>
+</div>

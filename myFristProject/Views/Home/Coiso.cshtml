@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Coiso Page";
+}
+
+@{
+    List<string> nomes = new List<string>();
+    nomes.Add("Arroz");
+    nomes.Add("Feijao");
+    nomes.Add("Batata");
+}
+
+<div class="text-center">
+    <h1 class="display-4">MUITO LOKO MEU</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque dolor, aliquam eget tellus vitae, finibus fermentum augue. Proin et lacinia sapien. Mauris vel mollis nisi, id vestibulum sem. Vivamus ultricies convallis felis in semper. Pellentesque ante augue, dignissim semper sapien non, molestie mollis nisi. Suspendisse bibendum sem sit amet pulvinar accumsan. Proin efficitur sed quam et convallis.</p>
+    <a href="https://www.youtube.com/watch?v=ZZmpjA7owGc">Vittor e Leo</a>
+    <ul>
+        @{
+            foreach(string nome in nomes){
+                <li>@nome</li>
+            }
+        }
+    </ul>
+</div>
