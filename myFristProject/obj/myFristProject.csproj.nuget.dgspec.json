@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JoaoVitor_Morandi\\OneDrive - Dell Technologies\\Desktop\\Projects\\ASPNET\\myFristProject\\myFristProject.csproj": {}
+    "C:\\Users\\JoaoVitor_Morandi\\OneDrive - Dell Technologies\\Desktop\\Projects\\ASPNET\\myfristproject\\myFristProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JoaoVitor_Morandi\\OneDrive - Dell Technologies\\Desktop\\Projects\\ASPNET\\myFristProject\\myFristProject.csproj": {
+    "C:\\Users\\JoaoVitor_Morandi\\OneDrive - Dell Technologies\\Desktop\\Projects\\ASPNET\\myfristproject\\myFristProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoaoVitor_Morandi\\OneDrive - Dell Technologies\\Desktop\\Projects\\ASPNET\\myFristProject\\myFristProject.csproj",
+        "projectUniqueName": "C:\\Users\\JoaoVitor_Morandi\\OneDrive - Dell Technologies\\Desktop\\Projects\\ASPNET\\myfristproject\\myFristProject.csproj",
         "projectName": "myFristProject",
-        "projectPath": "C:\\Users\\JoaoVitor_Morandi\\OneDrive - Dell Technologies\\Desktop\\Projects\\ASPNET\\myFristProject\\myFristProject.csproj",
+        "projectPath": "C:\\Users\\JoaoVitor_Morandi\\OneDrive - Dell Technologies\\Desktop\\Projects\\ASPNET\\myfristproject\\myFristProject.csproj",
         "packagesPath": "C:\\Users\\JoaoVitor_Morandi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoaoVitor_Morandi\\OneDrive - Dell Technologies\\Desktop\\Projects\\ASPNET\\myFristProject\\obj\\",
+        "outputPath": "C:\\Users\\JoaoVitor_Morandi\\OneDrive - Dell Technologies\\Desktop\\Projects\\ASPNET\\myfristproject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JoaoVitor_Morandi\\AppData\\Roaming\\NuGet\\NuGet.Config"
